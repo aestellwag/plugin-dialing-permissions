@@ -49,7 +49,7 @@ When you make changes to your code, the browser window will be automatically ref
 To make changes to the numbers that are allowed/restricted:
 
 ```bash
-Open the ./src/listeners/CustomListeners
+Navigate to ./src/listeners/CustomListeners.js
 Modify the emergencyNumbers and allowedCountryCodes to reflect your business needs
 ```
 
