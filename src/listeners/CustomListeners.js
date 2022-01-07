@@ -26,6 +26,13 @@ Actions.addListener('beforeStartOutboundCall', (payload, abortFunction) => {
 
     // Setup restriction logic below for any numbers/area codes/country codes to restrict
     
+    /* 
+    
+        CRITICAL!!!! Update emergencyNumbers to include any emergency numbers relevant to your business  CRITICAL!!!!
+                     Update allowedCountryCodes to represent country codes you are allowed to dial
+
+    */
+
     // Emergency Dialing Excemption
     const emergencyNumbers = ["911", "060", "065"];
     if (emergencyNumbers.some(n => payload.destination.match(n))) {

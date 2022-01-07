@@ -44,6 +44,15 @@ This will automatically start up the Webpack Dev Server and open the browser for
 
 When you make changes to your code, the browser window will be automatically refreshed.
 
+## Updating Dialing Permission
+
+To make changes to the numbers that are allowed/restricted:
+
+```bash
+Open the ./src/listeners/CustomListeners
+Modify the emergencyNumbers and allowedCountryCodes to reflect your business needs
+```
+
 ## Deploy
 
 When you are ready to deploy your plugin, in your terminal run:
